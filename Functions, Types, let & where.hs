@@ -30,3 +30,12 @@ main = do
     print(in_range4 10 20 15)
     print(10 `add` 20) --infix style
     print(add 10 20)
+
+    print(show 3) --presents 3 as a string
+    print(read "3" + 2) --presents "3" as an Int so that it can be added
+
+    print(read "3" :: Int) --explicity say the type "3" is to be
+
+    print(succ 'B') --output the successor of 'B'
+
+    print(fromIntegral (length [1,2,3,4]) + 3.2) --allow for Int and Float to be added
