@@ -26,6 +26,3 @@ main = toTry `catch` handler
                 putStrLn $ "The file has " ++ show (length (lines contents)) ++ " lines!"  
         else do putStrLn "The file doesn't exist!"
     -}
-
-     
-
